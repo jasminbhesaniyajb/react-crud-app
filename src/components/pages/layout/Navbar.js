@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-primary">
-        <Link to={"/"} className="navbar-brand" className="text-white">
+        <span className="navbar-brand" className="text-white">
          <h4>React-crud-app</h4>
-        </Link>
+        </span>
         <button
           className="navbar-toggler"
           type="button"
